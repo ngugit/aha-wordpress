@@ -4,7 +4,7 @@ services:
   wordpress:
     depends_on:
       - db
-    image: wordpress:last
+    image: wordpress:latest
     restart: always
     volumes:
       - ./wp-content:/var/www/html/wp-content
